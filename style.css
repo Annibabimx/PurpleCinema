@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    backdrop-filter: blur(10px) brightness(50%);
+    background-image: url(IMG/Img\ 1.jpg);
+    height: 240vh;
+    position: relative;
+    animation-play-state: running;
+}
+ nav h1{
+    font-size: 35px;
+    margin-left: 5%;
+    color: rgb(133, 64, 133);
+    font-family: 'Arial Black',sans-serif;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    position: sticky;
+}
+nav button{
+    margin-left: 60%;
+    margin-top: 15px;
+    border-radius: 60%;
+    width: 8%;
+    font-size: 15px;
+}
+h1 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 30px;
+    margin-top: 4%;
+}
+button{
+    background-color: rgb(133, 64, 133);
+}
+a{
+    color: black;
+    text-decoration: none;
+    transform: 05s;
+}
+.selection{
+    color: rgb(148, 135, 110);
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 80px;
+}
+.selection h1{
+    font-size: 70px;
+}
+.selection p{
+    font-size: 23px;
+    margin-top: 30px;
+}
+.select h1{
+    color: wheat;
+    margin-left: 55%;
+}
+.select img{
+    width: 350px;
+    height: 250px;
+    margin-left: 55%;
+}
+.select p{
+    color: wheat;
+    margin-left: 55%;
+    font-family: cursive;
+}
+.select{
+    font-size: 20px;
+}
+.watch{
+    margin-right: 90%;
+}
+footer{
+    color: wheat;
+    background-color: rgb(75, 73, 73);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    height: 25vh;
+}
+/* --------------------------------PHONE VIEW-------------------------------------- */
+@media screen and (max-width: 480px) {
+    body{
+    backdrop-filter: blur(10px) brightness(50%);
+    background-image: url(IMG/Img\ 1.jpg);
+    height: 180vh;
+    position: relative;
+    animation-play-state: running;
+}
+    nav h1{
+    font-size: 15px;
+    margin-left: 5%;
+    color: rgb(133, 64, 133);
+    font-family: 'Arial Black',sans-serif;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    position: sticky;
+}
+nav button{
+    margin-left: 50%;
+    margin-top: 5px;
+    border-radius: 60%;
+    width: 10%;
+    font-size: 5px;
+}
+h1 img{
+    border-radius: 50%;
+    width: 20px;
+    height: 15px;
+    margin-top: 4%;
+}
+button{
+    background-color: rgb(133, 64, 133);
+}
+a{
+    color: black;
+    text-decoration: none;
+    transform: 05s;
+}
+.selection{
+    color: rgb(148, 135, 110);
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 80px;
+}
+.selection h1{
+    font-size: 45px;
+}
+.selection p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.select h1{
+    color: wheat;
+    margin-left: 55%;
+}
+.select img{
+    width: 200px;
+    height: 150px;
+    margin-left: 55%;
+}
+.select p{
+    color: wheat;
+    margin-left: 55%;
+    font-family: cursive;
+}
+.select{
+    font-size: 10px;
+}
+.watch{
+    margin-right: 90%;
+}
+footer{
+    color: wheat;
+    background-color: rgb(75, 73, 73);
+    font-size: 15px;
+    text-align: center;
+    margin-top: 40px;
+    height: 20vh;
+}
+}
